@@ -1,0 +1,5 @@
+body { font-family: Arial; margin: 20px; background-color: wheat;  }
+
+.card { border: 1px solid #ccc; border-radius: 8px;
+        padding: 12px; margin-bottom: 12px; }
+.card h3 { margin: 0 0 6px; }

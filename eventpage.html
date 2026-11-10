@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Campus Hub: Events</title>
+  <link rel="stylesheet" href="eventpage.css">
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    .card { border: 1px solid #ccc; border-radius: 8px;
+            padding: 12px; margin-bottom: 12px; }
+    .card h3 { margin: 0 0 6px; }
+  </style>
+</head>
+<body>
+  <h1>Campus Events</h1>
+
+  <select id="filter">
+    <option value="All">All organisers</option>
+  </select>
+
+  <h3>Add an event</h3>
+  <input id="title" placeholder="Title">
+  <input id="date" placeholder="Date, e.g. 30 Nov 2026">
+  <input id="place" placeholder="Place">
+  <input id="organiser" placeholder="Organiser">
+  <button id="addBtn">Add event</button>
+
+  <div id="events"></div>
+
+  <script src="eventpage.js"></script>
+</body>
+</html>
